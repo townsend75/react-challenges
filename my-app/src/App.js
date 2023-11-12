@@ -1,12 +1,12 @@
 import css from './App.module.css';
-import UncontrolledForm from './components/UncontrolledForm';
+import SearchBar from './components/SearchBar';
 
 
 function App() {
   return (
     <div className={css.App}>
         
-        <UncontrolledForm/>
+        <SearchBar/>
     </div>
   );
 }
