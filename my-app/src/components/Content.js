@@ -6,6 +6,9 @@ import PostItem from "./PostItem";
 export class Content extends Component {
     constructor(props) {
         super(props)
+        this.state = {
+            isLoaded: false
+        }
     }
     
     render() {

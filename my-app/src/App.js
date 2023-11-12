@@ -1,14 +1,12 @@
 import css from './App.module.css';
-import Sidebar from './components/Sidebar';
-import StatefulGreeting from './components/StatefullGreeting';
-import NavBarSimple from './components/NavBarSimple';
-import Content from './components/Content';
+import UncontrolledForm from './components/UncontrolledForm';
+
 
 function App() {
   return (
     <div className={css.App}>
         
-        <Content/>
+        <UncontrolledForm/>
     </div>
   );
 }
