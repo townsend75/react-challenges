@@ -1,11 +1,11 @@
 import css from "./App.module.css";
-import Content from "./components/Content";
+import UseEffectCounter from "./components/UseEffectCounter";
 
 
 function App() {
   return (
     <div className={css.App}>
-      <Content />
+      <UseEffectCounter />
     </div>
   );
 }
