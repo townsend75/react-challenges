@@ -1,11 +1,10 @@
 import css from "./App.module.css";
-import UseEffectCounter from "./components/UseEffectCounter";
-
+import ContentHooks from "./components/ContentHooks";
 
 function App() {
   return (
     <div className={css.App}>
-      <UseEffectCounter />
+      <ContentHooks />
     </div>
   );
 }
